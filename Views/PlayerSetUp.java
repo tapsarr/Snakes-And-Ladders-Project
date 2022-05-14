@@ -46,7 +46,7 @@ public class PlayerSetUp extends JFrame {
         JPanel namePanel = new JPanel(new GridLayout(2, 1));
         JLabel nameLabel = new JLabel("Player Name:");
         JTextField nameField = new JTextField();
-        addPlaceHolder(nameField, "Name");
+        //addPlaceHolder(nameField, "Name");
     }
 
 }
