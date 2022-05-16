@@ -1,5 +1,6 @@
 package Views;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 
@@ -61,7 +62,7 @@ public class Index extends JFrame {
     private JPanel backgroundPanel() {
         JPanel backPanel = new JPanel();
         backPanel.setSize(windowWidth, windowHeight);
-
+        
         return backPanel;
     }
 

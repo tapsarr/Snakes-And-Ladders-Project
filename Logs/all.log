@@ -1,4 +1,14 @@
-Ã·¿ 14, 2022 1:19:19 Ã.Ã. Controller.AppLogger logging
+Ã·¿ 16, 2022 6:35:16 Ã.Ã. Controller.AppLogger logging
 WARNING: 
 	Class: main
 	Message: App Started
+Ã·¿ 16, 2022 6:35:18 Ã.Ã. Controller.AppLogger logging
+CONFIG: 
+	Class: MenuActions
+	Message: Entering: NewGame
+Ã·¿ 16, 2022 6:35:21 Ã.Ã. Controller.AppLogger logging
+INFO: 
+	Class: PlayerSetUp
+	Message: wefr Red
+Computer Blue
+Difficulty Level: 1 : Easy

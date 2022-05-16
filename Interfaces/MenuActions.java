@@ -4,10 +4,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 
 import javax.swing.AbstractAction;
+
 import javax.swing.JPanel;
 
 import Controller.AppLogger;
+import Views.BoardUI;
 import Views.Index;
+import Views.PlayerSetUp;
+import Views.BoardUI;
 
 /**
  * Main Menu Actions all in one file.
@@ -37,6 +41,9 @@ public interface MenuActions {
 
             String msg = "Entering: NewGame";
             logr.msgLog(4, msg, className);
+            new PlayerSetUp();
+            jfIndex.setPanel(new BoardUI());
+            jfIndex.repaint();
 
         }
     }
